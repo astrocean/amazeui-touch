@@ -99,6 +99,7 @@ const TabBarItem = React.createClass({
       classPrefix: 'tabbar',
       component: 'span',
       onAction: () => {},
+      renderIcon:null
     };
   },
 
@@ -150,6 +151,7 @@ const TabBarItem = React.createClass({
     let {
       component: Component,
       className,
+      renderIcon,
       ...props
     } = this.props;
 
@@ -158,11 +160,12 @@ const TabBarItem = React.createClass({
     delete props.badgeStyle;
     delete props.eventKey;
     delete props.onAction;
+    delete props.renderIcon;
 
     Component = this.props.href ? 'a' : Component;
 
     // TODO: how to display badge when icon not set?
-    var renderIcon=this.props.renderIcon||this.renderIcon;
+    var _renderIcon=renderIcon||this.renderIcon;
     return (
       <Component
         {...props}

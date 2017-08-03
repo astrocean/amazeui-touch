@@ -1,6 +1,6 @@
 /** Amaze UI Touch v1.0.0-rc.2 | by Amaze UI Team
   * (c) 2017 AllMobilize, Inc., Licensed under MIT
-  * 2017-08-03T14:03:50+0800
+  * 2017-08-03T14:12:49+0800
   */
   (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
@@ -5650,7 +5650,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return {
 	      classPrefix: 'tabbar',
 	      component: 'span',
-	      onAction: function onAction() {}
+	      onAction: function onAction() {},
+	      renderIcon: null
 	    };
 	  },
 	  renderBadge: function renderBadge() {
@@ -5698,18 +5699,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var _props3 = this.props,
 	        Component = _props3.component,
 	        className = _props3.className,
-	        props = _objectWithoutProperties(_props3, ['component', 'className']);
+	        renderIcon = _props3.renderIcon,
+	        props = _objectWithoutProperties(_props3, ['component', 'className', 'renderIcon']);
 
 	    delete props.classPrefix;
 	    delete props.badge;
 	    delete props.badgeStyle;
 	    delete props.eventKey;
 	    delete props.onAction;
+	    delete props.renderIcon;
 
 	    Component = this.props.href ? 'a' : Component;
 
 	    // TODO: how to display badge when icon not set?
-	    var renderIcon = this.props.renderIcon || this.renderIcon;
+	    var _renderIcon = renderIcon || this.renderIcon;
 	    return _react2.default.createElement(
 	      Component,
 	      _extends({}, props, {
