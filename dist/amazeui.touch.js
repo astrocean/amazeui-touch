@@ -1,6 +1,6 @@
 /** Amaze UI Touch v1.0.0-rc.2 | by Amaze UI Team
   * (c) 2017 AllMobilize, Inc., Licensed under MIT
-  * 2017-08-03T11:41:07+0800
+  * 2017-08-03T14:03:50+0800
   */
   (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
@@ -5642,7 +5642,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    badgeStyle: _react.PropTypes.string,
 	    selected: _react.PropTypes.bool, // alias of `active`
 	    selectedIcon: _react.PropTypes.node, // not supported now
-	    onAction: _react.PropTypes.func
+	    onAction: _react.PropTypes.func,
+	    renderIcon: _react.PropTypes.func
 	  },
 
 	  getDefaultProps: function getDefaultProps() {

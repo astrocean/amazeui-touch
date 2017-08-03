@@ -91,6 +91,7 @@ const TabBarItem = React.createClass({
     selected: PropTypes.bool, // alias of `active`
     selectedIcon: PropTypes.node, // not supported now
     onAction: PropTypes.func,
+    renderIcon:PropTypes.func
   },
 
   getDefaultProps() {
