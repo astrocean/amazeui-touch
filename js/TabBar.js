@@ -161,14 +161,14 @@ const TabBarItem = React.createClass({
     Component = this.props.href ? 'a' : Component;
 
     // TODO: how to display badge when icon not set?
-
+    var renderIcon=this.props.renderIcon||this.renderIcon;
     return (
       <Component
         {...props}
         className={cx(classSet, className, this.prefixClass('item'))}
       >
         {[
-          this.renderIcon(),
+          renderIcon(),
           this.renderTitle(),
         ]}
       </Component>

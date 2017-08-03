@@ -1,6 +1,6 @@
-/** Amaze UI Touch v1.0.0 | by Amaze UI Team
-  * (c) 2016 AllMobilize, Inc., Licensed under MIT
-  * 2016-08-18T15:15:02+0800
+/** Amaze UI Touch v1.0.0-rc.2 | by Amaze UI Team
+  * (c) 2017 AllMobilize, Inc., Licensed under MIT
+  * 2017-08-03T11:41:07+0800
   */
   (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
@@ -56,7 +56,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -194,7 +194,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	// @see http://jamesknelson.com/re-exporting-es6-modules/
 	// @see http://exploringjs.com/es6/ch_modules.html#sec_all-exporting-styles
 
-	var VERSION = exports.VERSION = '1.0.0';
+	var VERSION = exports.VERSION = '1.0.0-rc.2';
 
 	// Layout
 	exports.Container = _Container3.default;
@@ -235,9 +235,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.fallback = _fallback3.default;
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -274,9 +274,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.OverlayMixin = _OverlayMixin3.default;
 	exports.TouchableMixin = _TouchableMixin3.default;
 
-/***/ },
+/***/ }),
 /* 2 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -317,15 +317,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 3 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_3__;
 
-/***/ },
+/***/ }),
 /* 4 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 	  Copyright (c) 2016 Jed Watson.
@@ -377,9 +377,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}());
 
 
-/***/ },
+/***/ }),
 /* 5 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -399,16 +399,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  getClassSet: function getClassSet(ignorePrefix) {
 	    var classNames = {};
-	    var _props = this.props;
-	    var amSize = _props.amSize;
-	    var amStyle = _props.amStyle;
-	    var hollow = _props.hollow;
-	    var radius = _props.radius;
-	    var rounded = _props.rounded;
-	    var active = _props.active;
-	    var selected = _props.selected;
-	    var disabled = _props.disabled;
-	    var inset = _props.inset;
+	    var _props = this.props,
+	        amSize = _props.amSize,
+	        amStyle = _props.amStyle,
+	        hollow = _props.hollow,
+	        radius = _props.radius,
+	        rounded = _props.rounded,
+	        active = _props.active,
+	        selected = _props.selected,
+	        disabled = _props.disabled,
+	        inset = _props.inset;
 
 	    // uses `.am-` as prefix if `classPrefix` is not defined
 
@@ -459,9 +459,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = ClassNameMixin;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 6 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 
@@ -474,9 +474,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  active: 'active'
 	};
 
-/***/ },
+/***/ }),
 /* 7 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -656,9 +656,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = CollapseMixin;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 8 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -792,9 +792,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = TransitionEvents;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 9 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 
@@ -888,9 +888,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = CSSCore;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 10 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 
@@ -913,9 +913,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = ExecutionEnvironment;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 11 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -1009,15 +1009,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 12 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_12__;
 
-/***/ },
+/***/ }),
 /* 13 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -1117,10 +1117,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    this.processEvent(e);
 
 	    var endTouch = e.touches[0];
-	    var _state = this.state;
-	    var touch = _state.touch;
-	    var deltaX = _state.deltaX;
-	    var deltaY = _state.deltaY;
+	    var _state = this.state,
+	        touch = _state.touch,
+	        deltaX = _state.deltaX,
+	        deltaY = _state.deltaY;
 
 
 	    this._cancelPress();
@@ -1147,15 +1147,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    this._cancelPress();
 
-	    var _props = this.props;
-	    var tapDelay = _props.tapDelay;
-	    var moveThreshold = _props.moveThreshold;
-	    var _state2 = this.state;
-	    var touch = _state2.touch;
-	    var startTouch = _state2.startTouch;
-	    var endTouch = _state2.endTouch;
-	    var deltaX = _state2.deltaX;
-	    var deltaY = _state2.deltaY;
+	    var _props = this.props,
+	        tapDelay = _props.tapDelay,
+	        moveThreshold = _props.moveThreshold;
+	    var _state2 = this.state,
+	        touch = _state2.touch,
+	        startTouch = _state2.startTouch,
+	        endTouch = _state2.endTouch,
+	        deltaX = _state2.deltaX,
+	        deltaY = _state2.deltaY;
 
 	    var event = {
 	      touch: touch,
@@ -1254,11 +1254,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    this._resetTouch();
 	  },
 	  _getSwipeDirection: function _getSwipeDirection() {
-	    var _state$touch = this.state.touch;
-	    var x1 = _state$touch.x1;
-	    var x2 = _state$touch.x2;
-	    var y1 = _state$touch.y1;
-	    var y2 = _state$touch.y2;
+	    var _state$touch = this.state.touch,
+	        x1 = _state$touch.x1,
+	        x2 = _state$touch.x2,
+	        y1 = _state$touch.y1,
+	        y2 = _state$touch.y2;
 
 	    // 水平方向：水平距离大于等于垂直距离
 	    // 垂直方向：
@@ -1288,9 +1288,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = TouchableMixin;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 14 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -1413,18 +1413,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	  render: function render() {
 	    var _cx;
 
-	    var _props = this.props;
-	    var className = _props.className;
-	    var Component = _props.component;
-	    var children = _props.children;
-	    var direction = _props.direction;
-	    var fill = _props.fill;
-	    var align = _props.align;
-	    var justify = _props.justify;
-	    var scrollable = _props.scrollable;
-	    var transition = _props.transition;
-
-	    var props = _objectWithoutProperties(_props, ['className', 'component', 'children', 'direction', 'fill', 'align', 'justify', 'scrollable', 'transition']);
+	    var _props = this.props,
+	        className = _props.className,
+	        Component = _props.component,
+	        children = _props.children,
+	        direction = _props.direction,
+	        fill = _props.fill,
+	        align = _props.align,
+	        justify = _props.justify,
+	        scrollable = _props.scrollable,
+	        transition = _props.transition,
+	        props = _objectWithoutProperties(_props, ['className', 'component', 'children', 'direction', 'fill', 'align', 'justify', 'scrollable', 'transition']);
 
 	    var classSet = this.getClassSet();
 
@@ -1488,15 +1487,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Container;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 15 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_15__;
 
-/***/ },
+/***/ }),
 /* 16 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -1547,16 +1546,16 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var Component = _props.component;
-	    var className = _props.className;
-	    var collapse = _props.collapse;
-	    var bordered = _props.bordered;
-	    var avg = _props.avg;
-	    var align = _props.align;
-	    var wrap = _props.wrap;
 
-	    var props = _objectWithoutProperties(_props, ['component', 'className', 'collapse', 'bordered', 'avg', 'align', 'wrap']);
+	    var _props = this.props,
+	        Component = _props.component,
+	        className = _props.className,
+	        collapse = _props.collapse,
+	        bordered = _props.bordered,
+	        avg = _props.avg,
+	        align = _props.align,
+	        wrap = _props.wrap,
+	        props = _objectWithoutProperties(_props, ['component', 'className', 'collapse', 'bordered', 'avg', 'align', 'wrap']);
 
 	    delete props.classPrefix;
 
@@ -1590,9 +1589,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Grid;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 17 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -1638,14 +1637,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 	  },
 	  render: function render() {
-	    var _props = this.props;
-	    var Component = _props.component;
-	    var cols = _props.cols;
-	    var offset = _props.offset;
-	    var shrink = _props.shrink;
-	    var className = _props.className;
-
-	    var props = _objectWithoutProperties(_props, ['component', 'cols', 'offset', 'shrink', 'className']);
+	    var _props = this.props,
+	        Component = _props.component,
+	        cols = _props.cols,
+	        offset = _props.offset,
+	        shrink = _props.shrink,
+	        className = _props.className,
+	        props = _objectWithoutProperties(_props, ['component', 'cols', 'offset', 'shrink', 'className']);
 
 	    var classSet = this.getClassSet();
 
@@ -1674,9 +1672,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Col;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 18 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -1730,12 +1728,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }, this.props[role]) : null;
 	  },
 	  render: function render() {
-	    var _props = this.props;
-	    var Component = _props.component;
-	    var className = _props.className;
-	    var noPadded = _props.noPadded;
-
-	    var props = _objectWithoutProperties(_props, ['component', 'className', 'noPadded']);
+	    var _props = this.props,
+	        Component = _props.component,
+	        className = _props.className,
+	        noPadded = _props.noPadded,
+	        props = _objectWithoutProperties(_props, ['component', 'className', 'noPadded']);
 
 	    var classSet = this.getClassSet();
 
@@ -1766,9 +1763,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Group;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 19 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -1872,11 +1869,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    });
 	  },
 	  render: function render() {
-	    var _props = this.props;
-	    var className = _props.className;
-	    var inset = _props.inset;
-
-	    var props = _objectWithoutProperties(_props, ['className', 'inset']);
+	    var _props = this.props,
+	        className = _props.className,
+	        inset = _props.inset,
+	        props = _objectWithoutProperties(_props, ['className', 'inset']);
 
 	    var classSet = this.getClassSet();
 
@@ -1977,9 +1973,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Accordion;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 20 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -2015,6 +2011,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    component: _react.PropTypes.node.isRequired,
 	    name: _react.PropTypes.string.isRequired,
 	    href: _react.PropTypes.string
+	    // amStyle: PropTypes.string,
+	    // button: PropTypes.bool,
+	    // size: PropTypes.string,
 	  },
 
 	  getDefaultProps: function getDefaultProps() {
@@ -2025,12 +2024,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var Component = _props.component;
-	    var className = _props.className;
-	    var name = _props.name;
 
-	    var props = _objectWithoutProperties(_props, ['component', 'className', 'name']);
+	    var _props = this.props,
+	        Component = _props.component,
+	        className = _props.className,
+	        name = _props.name,
+	        props = _objectWithoutProperties(_props, ['component', 'className', 'name']);
 
 	    delete props.classPrefix;
 
@@ -2052,9 +2051,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Icon;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 21 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -2102,12 +2101,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var Component = _props.component;
-	    var className = _props.className;
-	    var href = _props.href;
 
-	    var props = _objectWithoutProperties(_props, ['component', 'className', 'href']);
+	    var _props = this.props,
+	        Component = _props.component,
+	        className = _props.className,
+	        href = _props.href,
+	        props = _objectWithoutProperties(_props, ['component', 'className', 'href']);
 
 	    delete props.classPrefix;
 	    delete props.amStyle;
@@ -2128,9 +2127,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Badge;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 22 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -2172,6 +2171,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    block: _react.PropTypes.bool,
 	    active: _react.PropTypes.bool,
 	    disabled: _react.PropTypes.bool
+	    // radius: PropTypes.bool,
+	    // rounded: PropTypes.bool,
 	  },
 
 	  getDefaultProps: function getDefaultProps() {
@@ -2190,12 +2191,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return props;
 	  },
 	  renderAnchor: function renderAnchor(classes) {
-	    var _props = this.props;
-	    var href = _props.href;
-	    var Component = _props.component;
-	    var children = _props.children;
-
-	    var props = _objectWithoutProperties(_props, ['href', 'component', 'children']);
+	    var _props = this.props,
+	        href = _props.href,
+	        Component = _props.component,
+	        children = _props.children,
+	        props = _objectWithoutProperties(_props, ['href', 'component', 'children']);
 
 	    Component = Component || 'a';
 
@@ -2212,11 +2212,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    );
 	  },
 	  renderButton: function renderButton(classes) {
-	    var _props2 = this.props;
-	    var Component = _props2.component;
-	    var children = _props2.children;
-
-	    var props = _objectWithoutProperties(_props2, ['component', 'children']);
+	    var _props2 = this.props,
+	        Component = _props2.component,
+	        children = _props2.children,
+	        props = _objectWithoutProperties(_props2, ['component', 'children']);
 
 	    Component = Component || 'button';
 
@@ -2230,11 +2229,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props3 = this.props;
-	    var href = _props3.href;
-	    var target = _props3.target;
-	    var block = _props3.block;
-	    var className = _props3.className;
+	    var _props3 = this.props,
+	        href = _props3.href,
+	        target = _props3.target,
+	        block = _props3.block,
+	        className = _props3.className;
 
 	    var renderType = href || target ? 'renderAnchor' : 'renderButton';
 
@@ -2248,9 +2247,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Button;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 23 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -2297,15 +2296,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var className = _props.className;
-	    var amStyle = _props.amStyle;
-	    var amSize = _props.amSize;
-	    var hollow = _props.hollow;
-	    var stacked = _props.stacked;
-	    var justify = _props.justify;
 
-	    var props = _objectWithoutProperties(_props, ['className', 'amStyle', 'amSize', 'hollow', 'stacked', 'justify']);
+	    var _props = this.props,
+	        className = _props.className,
+	        amStyle = _props.amStyle,
+	        amSize = _props.amSize,
+	        hollow = _props.hollow,
+	        stacked = _props.stacked,
+	        justify = _props.justify,
+	        props = _objectWithoutProperties(_props, ['className', 'amStyle', 'amSize', 'hollow', 'stacked', 'justify']);
 
 	    delete props.classPrefix;
 
@@ -2331,9 +2330,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = ButtonGroup;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 24 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -2375,11 +2374,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var className = _props.className;
-	    var children = _props.children;
 
-	    var props = _objectWithoutProperties(_props, ['className', 'children']);
+	    var _props = this.props,
+	        className = _props.className,
+	        children = _props.children,
+	        props = _objectWithoutProperties(_props, ['className', 'children']);
 
 	    delete props.classPrefix;
 
@@ -2396,9 +2395,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = ButtonToolbar;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 25 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -2463,14 +2462,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var children = _props.children;
-	    var className = _props.className;
-	    var title = _props.title;
-	    var header = _props.header;
-	    var footer = _props.footer;
 
-	    var props = _objectWithoutProperties(_props, ['children', 'className', 'title', 'header', 'footer']);
+	    var _props = this.props,
+	        children = _props.children,
+	        className = _props.className,
+	        title = _props.title,
+	        header = _props.header,
+	        footer = _props.footer,
+	        props = _objectWithoutProperties(_props, ['children', 'className', 'title', 'header', 'footer']);
 
 	    delete props.classPrefix;
 
@@ -2510,12 +2509,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  render: function render() {
 	    var _classSet;
 
-	    var _props2 = this.props;
-	    var role = _props2.role;
-	    var className = _props2.className;
-	    var cover = _props2.cover;
-
-	    var props = _objectWithoutProperties(_props2, ['role', 'className', 'cover']);
+	    var _props2 = this.props,
+	        role = _props2.role,
+	        className = _props2.className,
+	        cover = _props2.cover,
+	        props = _objectWithoutProperties(_props2, ['role', 'className', 'cover']);
 
 	    var classSet = (_classSet = {}, _defineProperty(_classSet, this.prefixClass(role), true), _defineProperty(_classSet, this.prefixClass('cover'), cover), _classSet);
 	    var style = null;
@@ -2545,9 +2543,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Card;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 26 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -2646,20 +2644,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var checkedProps = {};
 
 	    if (this.isCheckboxOrRadio()) {
-	      (function () {
-	        var propsMap = {
-	          checked: 'value',
-	          defaultChecked: 'defaultValue'
-	        };
+	      var propsMap = {
+	        checked: 'value',
+	        defaultChecked: 'defaultValue'
+	      };
 
-	        Object.keys(propsMap).forEach(function (checked) {
-	          var value = propsMap[checked];
+	      Object.keys(propsMap).forEach(function (checked) {
+	        var value = propsMap[checked];
 
-	          if (!_this.props[checked] && _this.props[value]) {
-	            checkedProps[checked] = value;
-	          }
-	        });
-	      })();
+	        if (!_this.props[checked] && _this.props[value]) {
+	          checkedProps[checked] = value;
+	        }
+	      });
 	    }
 
 	    return checkedProps;
@@ -2696,10 +2692,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	        break;
 	      case 'submit':
 	      case 'reset':
-	        var _props = this.props;
-	        var classPrefix = _props.classPrefix;
-
-	        var others = _objectWithoutProperties(_props, ['classPrefix']);
+	        var _props = this.props,
+	            classPrefix = _props.classPrefix,
+	            others = _objectWithoutProperties(_props, ['classPrefix']);
 
 	        field = _react2.default.createElement(_Button2.default, _extends({}, commonProps, {
 	          className: null
@@ -2714,10 +2709,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return field;
 	  },
 	  renderContainer: function renderContainer(children) {
-	    var _props2 = this.props;
-	    var id = _props2.id;
-	    var label = _props2.label;
-	    var containerClassName = _props2.containerClassName;
+	    var _props2 = this.props,
+	        id = _props2.id,
+	        label = _props2.label,
+	        containerClassName = _props2.containerClassName;
 
 	    return label ? _react2.default.createElement(
 	      'label',
@@ -2743,12 +2738,12 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    var groupPrefix = this.setClassNS('field-group');
 	    var labelClassName = groupPrefix + '-label';
-	    var _props3 = this.props;
-	    var labelBefore = _props3.labelBefore;
-	    var labelAfter = _props3.labelAfter;
-	    var btnBefore = _props3.btnBefore;
-	    var btnAfter = _props3.btnAfter;
-	    var containerClassName = _props3.containerClassName;
+	    var _props3 = this.props,
+	        labelBefore = _props3.labelBefore,
+	        labelAfter = _props3.labelAfter,
+	        btnBefore = _props3.btnBefore,
+	        btnAfter = _props3.btnAfter,
+	        containerClassName = _props3.containerClassName;
 
 	    var renderFiledLabel = function renderFiledLabel(type) {
 	      return _this2.props[type] ? _react2.default.createElement(
@@ -2788,9 +2783,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Field;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 27 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -2837,11 +2832,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var className = _props.className;
-	    var inset = _props.inset;
 
-	    var props = _objectWithoutProperties(_props, ['className', 'inset']);
+	    var _props = this.props,
+	        className = _props.className,
+	        inset = _props.inset,
+	        props = _objectWithoutProperties(_props, ['className', 'inset']);
 
 	    delete props.classPrefix;
 
@@ -2871,7 +2866,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    media: _react.PropTypes.node,
 	    after: _react.PropTypes.node,
 	    desc: _react.PropTypes.node,
-	    nested: _react.PropTypes.oneOf(['input', 'radio', 'checkbox']) },
+	    nested: _react.PropTypes.oneOf(['input', 'radio', 'checkbox']) // nested field
+	  },
 
 	  getDefaultProps: function getDefaultProps() {
 	    return {
@@ -2880,11 +2876,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 	  },
 	  renderTitleRow: function renderTitleRow() {
-	    var _props2 = this.props;
-	    var title = _props2.title;
-	    var subTitle = _props2.subTitle;
-	    var href = _props2.href;
-	    var linkComponent = _props2.linkComponent;
+	    var _props2 = this.props,
+	        title = _props2.title,
+	        subTitle = _props2.subTitle,
+	        href = _props2.href,
+	        linkComponent = _props2.linkComponent;
 
 
 	    var itemTitle = title ? _react2.default.createElement(
@@ -2912,11 +2908,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    ) : titleChildren;
 	  },
 	  renderMain: function renderMain() {
-	    var _props3 = this.props;
-	    var media = _props3.media;
-	    var subTitle = _props3.subTitle;
-	    var desc = _props3.desc;
-	    var children = _props3.children;
+	    var _props3 = this.props,
+	        media = _props3.media,
+	        subTitle = _props3.subTitle,
+	        desc = _props3.desc,
+	        children = _props3.children;
 
 	    var titleRow = this.renderTitleRow();
 	    var notJustTitle = media || subTitle || desc || children;
@@ -2935,11 +2931,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    ) : titleRow;
 	  },
 	  wrapLink: function wrapLink(children) {
-	    var _props4 = this.props;
-	    var linkComponent = _props4.linkComponent;
-	    var linkProps = _props4.linkProps;
-	    var href = _props4.href;
-	    var target = _props4.target;
+	    var _props4 = this.props,
+	        linkComponent = _props4.linkComponent,
+	        linkProps = _props4.linkProps,
+	        href = _props4.href,
+	        target = _props4.target;
 
 
 	    return linkComponent ? _react2.default.createElement(linkComponent, linkProps, children) : _react2.default.createElement(
@@ -2962,18 +2958,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	    ) : null;
 	  },
 	  render: function render() {
-	    var _props5 = this.props;
-	    var className = _props5.className;
-	    var role = _props5.role;
-	    var subTitle = _props5.subTitle;
-	    var href = _props5.href;
-	    var media = _props5.media;
-	    var children = _props5.children;
-	    var linkComponent = _props5.linkComponent;
-	    var linked = _props5.linked;
-	    var nested = _props5.nested;
-
-	    var props = _objectWithoutProperties(_props5, ['className', 'role', 'subTitle', 'href', 'media', 'children', 'linkComponent', 'linked', 'nested']);
+	    var _props5 = this.props,
+	        className = _props5.className,
+	        role = _props5.role,
+	        subTitle = _props5.subTitle,
+	        href = _props5.href,
+	        media = _props5.media,
+	        children = _props5.children,
+	        linkComponent = _props5.linkComponent,
+	        linked = _props5.linked,
+	        nested = _props5.nested,
+	        props = _objectWithoutProperties(_props5, ['className', 'role', 'subTitle', 'href', 'media', 'children', 'linkComponent', 'linked', 'nested']);
 
 	    delete props.classPrefix;
 	    delete props.title;
@@ -3014,9 +3009,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 28 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -3062,11 +3057,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var className = _props.className;
-	    var Component = _props.component;
 
-	    var props = _objectWithoutProperties(_props, ['className', 'component']);
+	    var _props = this.props,
+	        className = _props.className,
+	        Component = _props.component,
+	        props = _objectWithoutProperties(_props, ['className', 'component']);
 
 	    delete props.classPrefix;
 	    delete props.amStyle;
@@ -3087,9 +3082,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Loader;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 29 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -3107,9 +3102,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = _ModalPortal2.default;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 30 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -3179,9 +3174,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = ModalPortal;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 31 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -3198,9 +3193,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = bodyElement;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 32 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -3336,9 +3331,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  // data === true: confirm -> confirmed
 	  // data === false: confirm -> canceled
 	  handleAction: function handleAction(data, e) {
-	    var _props = this.props;
-	    var role = _props.role;
-	    var onAction = _props.onAction;
+	    var _props = this.props,
+	        role = _props.role,
+	        onAction = _props.onAction;
 
 	    var willClose = true;
 
@@ -3436,12 +3431,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  renderPopup: function renderPopup(classSet) {
 	    classSet[this.props.classPrefix] = false;
 
-	    var _props2 = this.props;
-	    var className = _props2.className;
-	    var title = _props2.title;
-	    var children = _props2.children;
-
-	    var props = _objectWithoutProperties(_props2, ['className', 'title', 'children']);
+	    var _props2 = this.props,
+	        className = _props2.className,
+	        title = _props2.title,
+	        children = _props2.children,
+	        props = _objectWithoutProperties(_props2, ['className', 'title', 'children']);
 
 	    return _react2.default.createElement(
 	      'div',
@@ -3476,10 +3470,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    );
 	  },
 	  renderHeader: function renderHeader() {
-	    var _props3 = this.props;
-	    var title = _props3.title;
-	    var closeBtn = _props3.closeBtn;
-	    var role = _props3.role;
+	    var _props3 = this.props,
+	        title = _props3.title,
+	        closeBtn = _props3.closeBtn,
+	        role = _props3.role;
 
 	    var closeIcon = closeBtn && !role ? _react2.default.createElement(_Icon2.default, {
 	      name: 'close',
@@ -3511,44 +3505,42 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    var buttons = void 0;
 	    var btnClass = this.prefixClass('btn');
-	    var _props4 = this.props;
-	    var role = _props4.role;
-	    var confirmText = _props4.confirmText;
-	    var cancelText = _props4.cancelText;
+	    var _props4 = this.props,
+	        role = _props4.role,
+	        confirmText = _props4.confirmText,
+	        cancelText = _props4.cancelText;
 
-	    (function () {
 
-	      switch (role) {
-	        case 'alert':
-	          buttons = _react2.default.createElement(
+	    switch (role) {
+	      case 'alert':
+	        buttons = _react2.default.createElement(
+	          'span',
+	          {
+	            key: 'modalBtn',
+	            onClick: this.handleAction.bind(this, null),
+	            className: btnClass
+	          },
+	          confirmText
+	        );
+	        break;
+	      case 'confirm':
+	      case 'prompt':
+	        var cancel = role === 'prompt' ? null : false;
+	        buttons = [cancelText, confirmText].map(function (text, i) {
+	          return _react2.default.createElement(
 	            'span',
 	            {
-	              key: 'modalBtn',
-	              onClick: _this.handleAction.bind(_this, null),
+	              key: 'modalBtn' + i,
+	              onClick: _this.handleAction.bind(_this, i === 0 ? cancel : true),
 	              className: btnClass
 	            },
-	            confirmText
+	            text
 	          );
-	          break;
-	        case 'confirm':
-	        case 'prompt':
-	          var cancel = role === 'prompt' ? null : false;
-	          buttons = [cancelText, confirmText].map(function (text, i) {
-	            return _react2.default.createElement(
-	              'span',
-	              {
-	                key: 'modalBtn' + i,
-	                onClick: _this.handleAction.bind(_this, i === 0 ? cancel : true),
-	                className: btnClass
-	              },
-	              text
-	            );
-	          });
-	          break;
-	        default:
-	          buttons = null;
-	      }
-	    })();
+	        });
+	        break;
+	      default:
+	        buttons = null;
+	    }
 
 	    return buttons ? _react2.default.createElement(
 	      'div',
@@ -3602,9 +3594,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  render: function render() {
 	    var _this2 = this;
 
-	    var _state = this.state;
-	    var closed = _state.closed;
-	    var isClosing = _state.isClosing;
+	    var _state = this.state,
+	        closed = _state.closed,
+	        isClosing = _state.isClosing;
 
 
 	    if (closed) {
@@ -3613,36 +3605,32 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    // listen out animation end envent
 	    if (isClosing) {
-	      (function () {
-	        var node = _this2.refs.modal;
+	      var node = this.refs.modal;
 
-	        if (node) {
-	          (function () {
-	            var closedHandler = function closedHandler(e) {
-	              if (e && e.target !== node) {
-	                return;
-	              }
+	      if (node) {
+	        var closedHandler = function closedHandler(e) {
+	          if (e && e.target !== node) {
+	            return;
+	          }
 
-	              _TransitionEvents2.default.off(node, closedHandler);
-	              _this2.handleClosed();
-	            };
+	          _TransitionEvents2.default.off(node, closedHandler);
+	          _this2.handleClosed();
+	        };
 
-	            _TransitionEvents2.default.on(node, closedHandler);
-	          })();
-	        }
-	      })();
+	        _TransitionEvents2.default.on(node, closedHandler);
+	      }
 	    }
 
 	    var classSet = this.getClassSet();
-	    var _props5 = this.props;
-	    var role = _props5.role;
-	    var className = _props5.className;
-	    var title = _props5.title;
-	    var children = _props5.children;
-	    var modalWidth = _props5.modalWidth;
-	    var modalHeight = _props5.modalHeight;
 
-	    var props = _objectWithoutProperties(_props5, ['role', 'className', 'title', 'children', 'modalWidth', 'modalHeight']);
+	    var _props5 = this.props,
+	        role = _props5.role,
+	        className = _props5.className,
+	        title = _props5.title,
+	        children = _props5.children,
+	        modalWidth = _props5.modalWidth,
+	        modalHeight = _props5.modalHeight,
+	        props = _objectWithoutProperties(_props5, ['role', 'className', 'title', 'children', 'modalWidth', 'modalHeight']);
 
 	    var modal = void 0;
 
@@ -3699,9 +3687,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Modal;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 33 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -3755,9 +3743,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 	  },
 	  renderTitle: function renderTitle() {
-	    var _props = this.props;
-	    var titleOnLeft = _props.titleOnLeft;
-	    var title = _props.title;
+	    var _props = this.props,
+	        titleOnLeft = _props.titleOnLeft,
+	        title = _props.title;
 
 	    var titlePosition = this.prefixClass(titleOnLeft ? 'left' : 'center');
 
@@ -3784,14 +3772,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  renderNavItem: function renderNavItem(item, index) {
 	    var _iconClassName;
 
-	    var Component = item.component;
-	    var title = item.title;
-	    var customIcon = item.customIcon;
-	    var icon = item.icon;
-	    var isClone = item.isClone;
-	    var className = item.className;
-
-	    var otherProps = _objectWithoutProperties(item, ['component', 'title', 'customIcon', 'icon', 'isClone', 'className']);
+	    var Component = item.component,
+	        title = item.title,
+	        customIcon = item.customIcon,
+	        icon = item.icon,
+	        isClone = item.isClone,
+	        className = item.className,
+	        otherProps = _objectWithoutProperties(item, ['component', 'title', 'customIcon', 'icon', 'isClone', 'className']);
 
 	    var children = [];
 	    var itemClassName = (0, _classnames2.default)(this.prefixClass('nav-item'), className);
@@ -3856,10 +3843,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props2 = this.props;
-	    var className = _props2.className;
 
-	    var props = _objectWithoutProperties(_props2, ['className']);
+	    var _props2 = this.props,
+	        className = _props2.className,
+	        props = _objectWithoutProperties(_props2, ['className']);
 
 	    delete props.title;
 	    delete props.classPrefix;
@@ -3884,9 +3871,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = NavBar;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 34 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -3969,13 +3956,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var title = _props.title;
-	    var className = _props.className;
-	    var animated = _props.animated;
-	    var visible = _props.visible;
 
-	    var props = _objectWithoutProperties(_props, ['title', 'className', 'animated', 'visible']);
+	    var _props = this.props,
+	        title = _props.title,
+	        className = _props.className,
+	        animated = _props.animated,
+	        visible = _props.visible,
+	        props = _objectWithoutProperties(_props, ['title', 'className', 'animated', 'visible']);
 
 	    delete props.classPrefix;
 	    delete props.amStyle;
@@ -4062,9 +4049,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = NotificationPortal;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 35 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -4123,14 +4110,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var placement = _props.placement;
-	    var animation = _props.animation;
-	    var className = _props.className;
-	    var children = _props.children;
-	    var isClosing = _props.isClosing;
 
-	    var props = _objectWithoutProperties(_props, ['placement', 'animation', 'className', 'children', 'isClosing']);
+	    var _props = this.props,
+	        placement = _props.placement,
+	        animation = _props.animation,
+	        className = _props.className,
+	        children = _props.children,
+	        isClosing = _props.isClosing,
+	        props = _objectWithoutProperties(_props, ['placement', 'animation', 'className', 'children', 'isClosing']);
 
 	    delete props.classPrefix;
 	    delete props.onDismiss;
@@ -4155,9 +4142,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = OffCanvas;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 36 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -4308,25 +4295,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	    if (isClosing) {
-	      (function () {
-	        var node = _this.getOverlayDOMNode();
-	        if (node) {
-	          (function () {
-	            var closedHandler = function closedHandler(e) {
-	              if (e && e.target !== node) {
-	                return;
-	              }
+	      var node = this.getOverlayDOMNode();
+	      if (node) {
+	        var closedHandler = function closedHandler(e) {
+	          if (e && e.target !== node) {
+	            return;
+	          }
 
-	              _TransitionEvents2.default.off(node, closedHandler);
-	              _this.handleClosed();
-	            };
-
-	            _TransitionEvents2.default.on(node, closedHandler);
-	          })();
-	        } else {
+	          _TransitionEvents2.default.off(node, closedHandler);
 	          _this.handleClosed();
-	        }
-	      })();
+	        };
+
+	        _TransitionEvents2.default.on(node, closedHandler);
+	      } else {
+	        this.handleClosed();
+	      }
 	    }
 
 	    return (0, _react.cloneElement)(offCanvas, {
@@ -4351,9 +4334,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = OffCanvasTrigger;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 37 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 
@@ -4401,9 +4384,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = createChainedFunction;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 38 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -4464,18 +4447,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var className = _props.className;
-	    var children = _props.children;
-	    var positionLeft = _props.positionLeft;
-	    var positionTop = _props.positionTop;
-	    var angleLeft = _props.angleLeft;
-	    var angleTop = _props.angleTop;
-	    var anglePosition = _props.anglePosition;
-	    var isClosing = _props.isClosing;
-	    var placement = _props.placement;
 
-	    var props = _objectWithoutProperties(_props, ['className', 'children', 'positionLeft', 'positionTop', 'angleLeft', 'angleTop', 'anglePosition', 'isClosing', 'placement']);
+	    var _props = this.props,
+	        className = _props.className,
+	        children = _props.children,
+	        positionLeft = _props.positionLeft,
+	        positionTop = _props.positionTop,
+	        angleLeft = _props.angleLeft,
+	        angleTop = _props.angleTop,
+	        anglePosition = _props.anglePosition,
+	        isClosing = _props.isClosing,
+	        placement = _props.placement,
+	        props = _objectWithoutProperties(_props, ['className', 'children', 'positionLeft', 'positionTop', 'angleLeft', 'angleTop', 'anglePosition', 'isClosing', 'placement']);
 
 	    var style = {
 	      left: positionLeft,
@@ -4517,9 +4500,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Popover;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 39 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -4646,8 +4629,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    var popoverHeight = popoverNode.offsetHeight;
 	    var popoverWidth = popoverNode.offsetWidth;
-	    var targetHeight = targetOffset.height;
-	    var targetWidth = targetOffset.width;
+	    var targetHeight = targetOffset.height,
+	        targetWidth = targetOffset.width;
 
 	    var windowHeight = window.innerHeight;
 	    var windowWidth = window.innerWidth;
@@ -4751,34 +4734,30 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 
 	    var popover = this.props.popover;
-	    var _state = this.state;
-	    var isClosing = _state.isClosing;
-	    var positionLeft = _state.popoverLeft;
-	    var positionTop = _state.popoverTop;
-	    var anglePosition = _state.anglePosition;
-	    var angleLeft = _state.angleLeft;
-	    var angleTop = _state.angleTop;
-	    var placement = _state.placement;
+	    var _state = this.state,
+	        isClosing = _state.isClosing,
+	        positionLeft = _state.popoverLeft,
+	        positionTop = _state.popoverTop,
+	        anglePosition = _state.anglePosition,
+	        angleLeft = _state.angleLeft,
+	        angleTop = _state.angleTop,
+	        placement = _state.placement;
 
 
 	    if (isClosing) {
-	      (function () {
-	        var node = _this.getOverlayDOMNode();
-	        if (node) {
-	          (function () {
-	            var closedHandler = function closedHandler(e) {
-	              if (e && e.target !== node) {
-	                return;
-	              }
+	      var node = this.getOverlayDOMNode();
+	      if (node) {
+	        var closedHandler = function closedHandler(e) {
+	          if (e && e.target !== node) {
+	            return;
+	          }
 
-	              _TransitionEvents2.default.off(node, closedHandler);
-	              _this.handleClosed();
-	            };
+	          _TransitionEvents2.default.off(node, closedHandler);
+	          _this.handleClosed();
+	        };
 
-	            _TransitionEvents2.default.on(node, closedHandler);
-	          })();
-	        }
-	      })();
+	        _TransitionEvents2.default.on(node, closedHandler);
+	      }
 	    }
 
 	    return (0, _react.cloneElement)(popover, {
@@ -4807,9 +4786,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = PopoverTrigger;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 40 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -4890,9 +4869,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 41 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -4901,10 +4880,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; }; /**
-	                                                                                                                                                                                                                                                   * @see https://github.com/react-bootstrap/react-bootstrap/blob/master/src/Carousel.js
-	                                                                                                                                                                                                                                                   */
 
 	var _react = __webpack_require__(3);
 
@@ -4936,7 +4911,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; } /**
+	                                                                                                                                                                                                                              * @see https://github.com/react-bootstrap/react-bootstrap/blob/master/src/Carousel.js
+	                                                                                                                                                                                                                              */
 
 	var Slider = _react2.default.createClass({
 	  displayName: 'Slider',
@@ -5141,42 +5118,36 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var _this = this;
 
 	    if (this.props.pager) {
-	      var _ret = function () {
-	        var isThumbnailNav = false;
+	      var isThumbnailNav = false;
 
-	        var children = _react2.default.Children.map(_this.props.children, function (child, i) {
-	          var className = i === _this.getActiveIndex() ? _this.setClassNS('active') : null;
-	          var thumb = child.props.thumbnail;
+	      var children = _react2.default.Children.map(this.props.children, function (child, i) {
+	        var className = i === _this.getActiveIndex() ? _this.setClassNS('active') : null;
+	        var thumb = child.props.thumbnail;
 
-	          if (!isThumbnailNav) {
-	            isThumbnailNav = !!thumb;
-	          }
+	        if (!isThumbnailNav) {
+	          isThumbnailNav = !!thumb;
+	        }
 
-	          return _react2.default.createElement(
-	            _Touchable2.default,
-	            {
-	              component: 'li',
-	              className: className,
-	              key: i,
-	              onTap: _this.handleSelect.bind(_this, i, null)
-	            },
-	            thumb ? _react2.default.createElement('img', { src: thumb }) : null
-	          );
-	        });
-	        var pagerClassName = _this.prefixClass(isThumbnailNav ? 'thumbs' : 'indicators');
+	        return _react2.default.createElement(
+	          _Touchable2.default,
+	          {
+	            component: 'li',
+	            className: className,
+	            key: i,
+	            onTap: _this.handleSelect.bind(_this, i, null)
+	          },
+	          thumb ? _react2.default.createElement('img', { src: thumb }) : null
+	        );
+	      });
+	      var pagerClassName = this.prefixClass(isThumbnailNav ? 'thumbs' : 'indicators');
 
-	        return {
-	          v: _react2.default.createElement(
-	            'ol',
-	            {
-	              className: (0, _classnames2.default)(_this.prefixClass('pager'), pagerClassName)
-	            },
-	            children
-	          )
-	        };
-	      }();
-
-	      if ((typeof _ret === 'undefined' ? 'undefined' : _typeof(_ret)) === "object") return _ret.v;
+	      return _react2.default.createElement(
+	        'ol',
+	        {
+	          className: (0, _classnames2.default)(this.prefixClass('pager'), pagerClassName)
+	        },
+	        children
+	      );
 	    }
 
 	    return null;
@@ -5200,11 +5171,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var className = _props.className;
-	    var children = _props.children;
 
-	    var props = _objectWithoutProperties(_props, ['className', 'children']);
+	    var _props = this.props,
+	        className = _props.className,
+	        children = _props.children,
+	        props = _objectWithoutProperties(_props, ['className', 'children']);
 
 	    delete props.classPrefix;
 	    delete props.onAction;
@@ -5295,12 +5266,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	    });
 	  },
 	  render: function render() {
-	    var _props2 = this.props;
-	    var className = _props2.className;
-	    var active = _props2.active;
-	    var animateIn = _props2.animateIn;
-	    var animateOut = _props2.animateOut;
-	    var direction = _props2.direction;
+	    var _props2 = this.props,
+	        className = _props2.className,
+	        active = _props2.active,
+	        animateIn = _props2.animateIn,
+	        animateOut = _props2.animateOut,
+	        direction = _props2.direction;
 
 	    var classSet = {
 	      active: active && !animateIn || animateOut,
@@ -5327,9 +5298,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Slider;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 42 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -5386,11 +5357,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 	  },
 	  render: function render() {
-	    var _props = this.props;
-	    var Component = _props.component;
-	    var onTap = _props.onTap;
-
-	    var props = _objectWithoutProperties(_props, ['component', 'onTap']);
+	    var _props = this.props,
+	        Component = _props.component,
+	        onTap = _props.onTap,
+	        props = _objectWithoutProperties(_props, ['component', 'onTap']);
 
 	    if (_isTouchSupported2.default) {
 	      _extends(props, this.getTouchHandlers());
@@ -5428,9 +5398,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// TODO: Mixin 里似乎没必要使用 state 记录事件相关信息
 	// TODO: 添加 touch active className
 
-/***/ },
+/***/ }),
 /* 43 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
 
@@ -5443,9 +5413,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
-/***/ },
+/***/ }),
 /* 44 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
 
@@ -5473,9 +5443,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
-/***/ },
+/***/ }),
 /* 45 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -5526,14 +5496,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var name = _props.name;
-	    var className = _props.className;
-	    var onValueChange = _props.onValueChange;
-	    var value = _props.value;
-	    var disabled = _props.disabled;
 
-	    var props = _objectWithoutProperties(_props, ['name', 'className', 'onValueChange', 'value', 'disabled']);
+	    var _props = this.props,
+	        name = _props.name,
+	        className = _props.className,
+	        onValueChange = _props.onValueChange,
+	        value = _props.value,
+	        disabled = _props.disabled,
+	        props = _objectWithoutProperties(_props, ['name', 'className', 'onValueChange', 'value', 'disabled']);
 
 	    delete props.classPrefix;
 
@@ -5558,9 +5528,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = Switch;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 46 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -5616,13 +5586,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var Component = _props.component;
-	    var className = _props.className;
-	    var children = _props.children;
-	    var onAction = _props.onAction;
 
-	    var props = _objectWithoutProperties(_props, ['component', 'className', 'children', 'onAction']);
+	    var _props = this.props,
+	        Component = _props.component,
+	        className = _props.className,
+	        children = _props.children,
+	        onAction = _props.onAction,
+	        props = _objectWithoutProperties(_props, ['component', 'className', 'children', 'onAction']);
 
 	    delete props.classPrefix;
 	    delete props.amStyle;
@@ -5633,11 +5603,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	        className: (0, _classnames2.default)(classSet, className)
 	      }),
 	      _react2.default.Children.map(children, function (child, index) {
-	        var _child$props = child.props;
-	        var eventKey = _child$props.eventKey;
-	        var onClick = _child$props.onClick;
-
-	        var props = _objectWithoutProperties(_child$props, ['eventKey', 'onClick']);
+	        var _child$props = child.props,
+	            eventKey = _child$props.eventKey,
+	            onClick = _child$props.onClick,
+	            props = _objectWithoutProperties(_child$props, ['eventKey', 'onClick']);
 
 	        var clickHandler = onClick || onAction;
 	        var key = eventKey || index;
@@ -5684,9 +5653,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 	  },
 	  renderBadge: function renderBadge() {
-	    var _props2 = this.props;
-	    var badge = _props2.badge;
-	    var badgeStyle = _props2.badgeStyle;
+	    var _props2 = this.props,
+	        badge = _props2.badge,
+	        badgeStyle = _props2.badgeStyle;
 
 
 	    return badge ? _react2.default.createElement(
@@ -5724,11 +5693,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet(true);
-	    var _props3 = this.props;
-	    var Component = _props3.component;
-	    var className = _props3.className;
 
-	    var props = _objectWithoutProperties(_props3, ['component', 'className']);
+	    var _props3 = this.props,
+	        Component = _props3.component,
+	        className = _props3.className,
+	        props = _objectWithoutProperties(_props3, ['component', 'className']);
 
 	    delete props.classPrefix;
 	    delete props.badge;
@@ -5739,13 +5708,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	    Component = this.props.href ? 'a' : Component;
 
 	    // TODO: how to display badge when icon not set?
-
+	    var renderIcon = this.props.renderIcon || this.renderIcon;
 	    return _react2.default.createElement(
 	      Component,
 	      _extends({}, props, {
 	        className: (0, _classnames2.default)(classSet, className, this.prefixClass('item'))
 	      }),
-	      [this.renderIcon(), this.renderTitle()]
+	      [renderIcon(), this.renderTitle()]
 	    );
 	  }
 	});
@@ -5755,9 +5724,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = TabBar;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 47 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -5870,11 +5839,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var activeKey = this.getActiveKey();
 
 	    var navs = _react2.default.Children.map(this.props.children, function (child, index) {
-	      var _child$props = child.props;
-	      var eventKey = _child$props.eventKey;
-	      var disabled = _child$props.disabled;
-	      var navSize = _child$props.navSize;
-	      var navStyle = _child$props.navStyle;
+	      var _child$props = child.props,
+	          eventKey = _child$props.eventKey,
+	          disabled = _child$props.disabled,
+	          navSize = _child$props.navSize,
+	          navStyle = _child$props.navStyle;
 
 	      var key = index;
 
@@ -5910,11 +5879,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  renderTabPanels: function renderTabPanels() {
 	    var activeKey = this.getActiveKey();
 	    var panels = _react2.default.Children.map(this.props.children, function (child, index) {
-	      var _child$props2 = child.props;
-	      var eventKey = _child$props2.eventKey;
-	      var children = _child$props2.children;
-
-	      var props = _objectWithoutProperties(_child$props2, ['eventKey', 'children']);
+	      var _child$props2 = child.props,
+	          eventKey = _child$props2.eventKey,
+	          children = _child$props2.children,
+	          props = _objectWithoutProperties(_child$props2, ['eventKey', 'children']);
 
 	      if (eventKey === undefined) {
 	        eventKey = index;
@@ -5941,10 +5909,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var className = _props.className;
 
-	    var props = _objectWithoutProperties(_props, ['className']);
+	    var _props = this.props,
+	        className = _props.className,
+	        props = _objectWithoutProperties(_props, ['className']);
 
 	    delete props.classPrefix;
 	    delete props.activeKey;
@@ -5986,12 +5954,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet(true);
-	    var _props2 = this.props;
-	    var className = _props2.className;
-	    var children = _props2.children;
-	    var noPadded = _props2.noPadded;
 
-	    var props = _objectWithoutProperties(_props2, ['className', 'children', 'noPadded']);
+	    var _props2 = this.props,
+	        className = _props2.className,
+	        children = _props2.children,
+	        noPadded = _props2.noPadded,
+	        props = _objectWithoutProperties(_props2, ['className', 'children', 'noPadded']);
 
 	    var elementName = 'panel';
 
@@ -6023,9 +5991,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 48 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -6068,11 +6036,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 	  },
 	  render: function render() {
-	    var _props = this.props;
-	    var component = _props.component;
-	    var className = _props.className;
-
-	    var props = _objectWithoutProperties(_props, ['component', 'className']);
+	    var _props = this.props,
+	        component = _props.component,
+	        className = _props.className,
+	        props = _objectWithoutProperties(_props, ['component', 'className']);
 
 	    delete props.classPrefix;
 
@@ -6085,9 +6052,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = View;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 49 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 
@@ -6104,19 +6071,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	  addHook: function addHook() {
 	    // Android browsers legacy flexbox fallback
 	    try {
-	      (function () {
-	        var ua = navigator.userAgent.toLowerCase();
-	        var fbNeeded = false;
+	      var ua = navigator.userAgent.toLowerCase();
+	      var fbNeeded = false;
 
-	        // TODO: - add version detecting when UC supports flexbox
-	        if (/android/i.test(ua)) {
-	          Object.keys(fallback.detectionRegex).forEach(function (key) {
-	            !fbNeeded && (fbNeeded = fallback.detectionRegex[key].test(ua));
-	          });
+	      // TODO: - add version detecting when UC supports flexbox
+	      if (/android/i.test(ua)) {
+	        Object.keys(fallback.detectionRegex).forEach(function (key) {
+	          !fbNeeded && (fbNeeded = fallback.detectionRegex[key].test(ua));
+	        });
 
-	          fbNeeded && (document.documentElement.className += ' fb-legacy-flexbox');
-	        }
-	      })();
+	        fbNeeded && (document.documentElement.className += ' fb-legacy-flexbox');
+	      }
 	    } catch (e) {}
 	  }
 	};
@@ -6126,7 +6091,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = fallback;
 	module.exports = exports['default'];
 
-/***/ }
+/***/ })
 /******/ ])
 });
 ;
